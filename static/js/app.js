@@ -94,7 +94,7 @@ function buildCharts(patientID) {
           {
               domain: { x: [0, 1], y: [0, 1] },
               value: washFreq,
-              title: { text: "Washing Frequency (Times per Week)" },
+              title: { text: "Belly Button Washing Frequency (Times per Week)" },
               type: "indicator",
               mode: "gauge+number",
               gauge: {
